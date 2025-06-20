@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-experiments-bootstrap"
+name = "electricity-map-data-exploration"
 version = "0.1.0"
 description = ""
 authors = ["Davide Domini <davide.domini@unibo.it>"]
@@ -7,6 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+matplotlib = "^3.10.3"
+pandas = "^2.3.0"
 
 
 [build-system]
